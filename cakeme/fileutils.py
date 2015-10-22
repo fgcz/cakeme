@@ -1,7 +1,6 @@
 import os
 import zipfile
 
-
 def remove_files_from_folder(folder):
     for the_file in os.listdir(folder):
         file_path = os.path.join(folder, the_file)
