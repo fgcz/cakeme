@@ -1,0 +1,2 @@
+2015-10-29 09:04:19,886 INFO Running scp setup.py bfabric@fgcz-s-021:/srv/www/htdocs//p1000/bfabric/Proteomics/DIA_Assay_Library_Generator/2015/2015-10/2015-10-27//workunit_136124/206686.zip 
+2015-10-29 09:04:23,446 INFO SCPCopy : ret 0 out   err None

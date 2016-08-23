@@ -1,6 +1,11 @@
 import os
 import zipfile
 
+
+def make_path_to_file(pathandfile):
+    if not os.path.exists(os.path.dirname(pathandfile)):
+        os.makedirs(os.path.dirname(pathandfile))
+
 def remove_files_from_folder(folder):
     for the_file in os.listdir(folder):
         file_path = os.path.join(folder, the_file)
